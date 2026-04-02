@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quran Tarawih — Support</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #16213e;
+      color: #ccc;
+      min-height: 100vh;
+    }
+    header {
+      background: #0f1629;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 1px solid rgba(201,168,76,0.3);
+    }
+    .logo-emoji { font-size: 64px; margin-bottom: 12px; }
+    header h1 { color: #C9A84C; font-size: 32px; font-weight: 700; letter-spacing: 1px; }
+    header p { color: #888; font-size: 15px; margin-top: 8px; }
+    .arabic { color: rgba(201,168,76,0.5); font-size: 18px; margin-top: 6px; }
+
+    main { max-width: 680px; margin: 0 auto; padding: 40px 20px; }
+
+    .section { margin-bottom: 40px; }
+    .section h2 {
+      color: #C9A84C;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(201,168,76,0.2);
+    }
+    .section p { line-height: 1.7; font-size: 15px; color: #aaa; margin-bottom: 12px; }
+
+    .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+    .feature-card {
+      background: rgba(201,168,76,0.06);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .feature-card .icon { font-size: 24px; margin-bottom: 8px; }
+    .feature-card h3 { color: white; font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+    .feature-card p { font-size: 13px; color: #777; margin: 0; }
+
+    .faq-item { margin-bottom: 20px; }
+    .faq-item h3 { color: white; font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+    .faq-item p { color: #888; font-size: 14px; line-height: 1.6; }
+
+    .contact-box {
+      background: rgba(201,168,76,0.08);
+      border: 1px solid rgba(201,168,76,0.3);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+    }
+    .contact-box p { margin-bottom: 16px; font-size: 15px; }
+    .contact-box a {
+      display: inline-block;
+      background: #C9A84C;
+      color: #16213e;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 12px 28px;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #444;
+      font-size: 13px;
+      border-top: 1px solid #1e2a45;
+    }
+
+    @media (max-width: 480px) {
+      .feature-grid { grid-template-columns: 1fr; }
+      header h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-emoji">📖</div>
+  <h1>Quran Tarawih</h1>
+  <p>Votre imam virtuel pour les prières Tarawih</p>
+  <div class="arabic">القرآن والتراويح</div>
+</header>
+
+<main>
+
+  <!-- À propos -->
+  <div class="section">
+    <h2>🕌 À propos de l'application</h2>
+    <p>
+      Quran Tarawih est une application iOS conçue pour vous accompagner dans vos prières Tarawih et la lecture du Saint Coran. Elle fonctionne comme un imam virtuel : la Fatiha est récitée automatiquement avant chaque rakat, suivie des versets enchaînés sans interruption.
+    </p>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="icon">🎙️</div>
+        <h3>Imam Virtuel</h3>
+        <p>Fatiha automatique + versets enchaînés</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">📖</div>
+        <h3>Lecture du Coran</h3>
+        <p>114 sourates avec traduction</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🗓️</div>
+        <h3>Programme</h3>
+        <p>1 à 6 mois selon votre rythme</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🧭</div>
+        <h3>Qibla</h3>
+        <p>Direction de La Mecque</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="section">
+    <h2>❓ Questions fréquentes</h2>
+
+    <div class="faq-item">
+      <h3>Le son ne fonctionne pas, que faire ?</h3>
+      <p>Vérifiez que votre iPhone n'est pas en mode silencieux (interrupteur sur le côté). Assurez-vous également d'avoir une connexion internet active, l'audio est chargé en temps réel.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Comment reprendre ma lecture là où je me suis arrêté ?</h3>
+      <p>Sur l'écran d'accueil, appuyez sur le bouton "Reprendre S.. V.." qui apparaît sous "Lire le Coran". Votre position est sauvegardée automatiquement à chaque verset écouté.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Comment activer les notifications de rappel ?</h3>
+      <p>Allez dans Paramètres → Rappels Tarawih → activez le switch. Les rappels sont programmés selon vos horaires de prière locaux.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Qu'est-ce que le Premium ?</h3>
+      <p>Le Premium est un achat unique à 2,99€ qui débloque les durées de programme 4, 5 et 6 mois, ainsi que l'accès à tous les récitateurs disponibles.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Comment restaurer mon achat Premium ?</h3>
+      <p>Allez dans Paramètres → section Premium → "Restaurer un achat". Votre achat sera restauré si vous êtes connecté avec le même compte Apple ID.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>La direction de la Qibla est-elle précise ?</h3>
+      <p>La boussole utilise le magnétomètre de votre iPhone et donne une direction indicative. Pour une précision maximale, éloignez-vous des objets métalliques et vérifiez avec une autre source si nécessaire.</p>
+    </div>
+  </div>
+
+  <!-- Confidentialité -->
+  <div class="section">
+    <h2>🔒 Confidentialité</h2>
+    <p>
+      Quran Tarawih ne collecte aucune donnée personnelle. Toutes vos préférences et votre progression sont stockées uniquement sur votre appareil. L'application utilise uniquement votre localisation GPS pour calculer les horaires de prière et la direction de la Qibla — ces données ne sont jamais transmises à des tiers.
+    </p>
+  </div>
+
+  <!-- Contact -->
+  <div class="section">
+    <h2>📩 Nous contacter</h2>
+    <div class="contact-box">
+      <p>Une question, un bug ou une suggestion ? Nous vous répondrons dans les plus brefs délais.</p>
+      <a href="mailto:support.qurantarawih@gmail.com">Envoyer un email</a>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  © 2026 Quran Tarawih · Disponible sur l'App Store
+</footer>
+
+</body>
+</html>
